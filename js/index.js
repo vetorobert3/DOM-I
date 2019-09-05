@@ -68,6 +68,7 @@ newH4[1].textContent = "About"
 newH4[2].textContent = "Services"
 newH4[3].textContent = "Product"
 newH4[4].textContent = "Vision"
+newH4[5].textContent = "Contact"
 
 const firstP = document.getElementsByTagName('p');
 firstP[0].textContent = "Features content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis."
@@ -75,6 +76,11 @@ firstP[1].textContent = "About content elementum magna eros, ac posuere elvit te
 firstP[2].textContent = "Services content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis."
 firstP[3].textContent = "Product content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis."
 firstP[4].textContent = "Vision content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis."
+firstP[5].textContent = "123 Way 456 Street, Somewhere, USA"
+firstP[6].textContent = "1 (888) 888-8888"
+firstP[7].textContent = "sales@greatidea.io"
 
-const middleImg = document.getElementById('middle-img')
+const middleImg = document.getElementById('middle-img');
 middleImg.src = "img/mid-page-accent.jpg"
+
+firstP[8].textContent = "Copyright Great Idea! 2018";
