@@ -41,7 +41,7 @@ const siteContent = {
 let logo = document.getElementById("logo-img");
 logo.setAttribute('src', siteContent["nav"]["img-src"])
 
-///////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////
 
 const newHeader = document.querySelectorAll('a');
 newHeader[0].textContent = "Services"
@@ -50,3 +50,11 @@ newHeader[2].textContent = "Vision"
 newHeader[3].textContent = "Features"
 newHeader[4].textContent = "About"
 newHeader[5].textContent = "Contact"
+
+// const newImg = document.getElementById('logo-img');
+
+const newH1 = document.getElementsByTagName('h1');
+newH1[0].textContent = "DOM Is Awesome"
+
+const newButton = document.getElementsByTagName('button');
+newButton[0].textContent = "Get Started"
