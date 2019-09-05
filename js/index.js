@@ -58,3 +58,23 @@ newH1[0].textContent = "DOM Is Awesome"
 
 const newButton = document.getElementsByTagName('button');
 newButton[0].textContent = "Get Started"
+
+const newImg2 = document.getElementById('cta-img');
+newImg2.src = "img/header-img.png"
+
+const newH4 = document.getElementsByTagName('h4');
+newH4[0].textContent = "Features"
+newH4[1].textContent = "About"
+newH4[2].textContent = "Services"
+newH4[3].textContent = "Product"
+newH4[4].textContent = "Vision"
+
+const firstP = document.getElementsByTagName('p');
+firstP[0].textContent = "Features content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis."
+firstP[1].textContent = "About content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis."
+firstP[2].textContent = "Services content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis."
+firstP[3].textContent = "Product content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis."
+firstP[4].textContent = "Vision content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis."
+
+const middleImg = document.getElementById('middle-img')
+middleImg.src = "img/mid-page-accent.jpg"
