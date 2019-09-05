@@ -45,3 +45,8 @@ logo.setAttribute('src', siteContent["nav"]["img-src"])
 
 const newHeader = document.querySelectorAll('a');
 newHeader[0].textContent = "Services"
+newHeader[1].textContent = "Product"
+newHeader[2].textContent = "Vision"
+newHeader[3].textContent = "Features"
+newHeader[4].textContent = "About"
+newHeader[5].textContent = "Contact"
